@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/skins/color-1.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="css/style-switcher.css">
     </head>
     <body>
         <!-- Main Container start-->
@@ -34,7 +35,7 @@
     <!-- Main Content Start -->
     <div class="main-content">
     <!-- Home Section Start -->  
-    <section class="home section hidden">
+    <section class="home section">
         <div class="container">
             <div class="row">
                 <div class="home-info padd-15">
@@ -53,7 +54,7 @@
     </section>
     <!-- Home Section End -->
     <!-- About Section Start -->  
-    <section class="about section hidden">
+    <section class="about section">
         <div class="container">
             <div class="row">
                 <div class ="section-title padd-15"> 
@@ -234,7 +235,7 @@
     </section>
     <!-- About Section End --> 
       <!-- services  Section Start --> 
-      <section class="service section hidden"> 
+      <section class="service section"> 
         <div class="container">
             <div class="row">
                 <div class="section-title padd-15">
@@ -334,7 +335,7 @@
 
         <!-- service  Section End -->
          <!-- Portfolio Section Start -->  
-         <section class="portfolio section hidden">
+         <section class="portfolio section">
             <div class="container">
                 <div class="row">
                     <div class="section-title padd-15">
@@ -420,8 +421,91 @@
                                     <h2>Contact Me </h2>
                                 </div>
                             </div>
-                            <h3 class="contact-title">Have You any questions ?</h3>
-                            <h4 class="contact-sub-title">I'm at Your Services</h4>
+                            <h3 class="contact-title padd-15">Have You any questions ?</h3>
+                            <h4 class="contact-sub-title padd-15">I'm at Your Services</h4>
+                            <div class="row">
+
+                                   <!-- Contact Info Item Start -->
+                                   <div class="contact-info-item padd-15" >
+                                    <div class="icon"><i class="fa fa-phone"> </i></div>
+                                    <h4>Call Us On</h4>
+                                    <p>+92 3330545218</p>
+                                   </div>
+
+                                   <!-- Contact Info Item End -->
+
+                                    <!-- Contact Info Item Start -->
+                                    <div class="contact-info-item padd-15">
+                                        <div class="icon"><i class="fa fa-map-marker-alt"> </i></div>
+                                        <h4>Home</h4>
+                                        <p>Veyangoda</p>
+                                       </div>
+    
+                                       <!-- Contact Info Item End -->
+
+                                                
+
+                                         <!-- Contact Info Item Start -->
+                                   <div class="contact-info-item padd-15">
+                                    <div class="icon"><i class="fa fa-envelope"> </i></div>
+                                    <h4>Email</h4>
+                                    <p>kavindugunasekara2000@gmail.com</p>
+                                   </div>
+
+                                   <!-- Contact Info Item End -->
+                                         <!-- Contact Info Item Start -->
+                                   <div class="contact-info-item padd-15">
+                                    <div class="icon"><i class="fa fa-globe-europe"> </i></div>
+                                    <h4>Website</h4>
+                                    <p>www.domain.com</p>
+                                   </div>
+
+                                   <!-- Contact Info Item End -->
+                                       
+
+                            </div>
+                            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                            <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
+                               <!-- Contact Form -->    
+                               <div class="row">
+                                <div class="contact-form padd-15">
+                                    <div class="row">
+                                        <div class="form-item col-6 padd-15">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Name">
+                                            </div>
+                                        </div>
+                                        <div class="form-item col-6 padd-15">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Subject">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                               <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <button type="submit" class="btn">Send Message </button>
+                                           
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                               </div>
+
+                              
                         </div>
                          
                       </section>
@@ -430,8 +514,29 @@
      <!-- Main Content End -->
       </div>
         <!-- Main Container end-->
+        <!-- Style  Switcher Start-->
+        <div class="style-switcher">
+            <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+
+            </div>
+            <div class="day-night s-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <h4>Theme Colors</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>
+        </div>
+        
+         <!-- Style  Switcher End-->
+
           <!-- JS file-->
     
         <script src ="js/script.js"></script>
     </body>
-</html>
+</html> 
